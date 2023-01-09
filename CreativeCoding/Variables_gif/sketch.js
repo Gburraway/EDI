@@ -4,7 +4,7 @@ createCanvas (windowWidth, windowWidth);//creates a canvas 720 by 720 pixels
 }
 
 function draw() {//runs in a loop
-  fill (255, 0, 0);//Shape with RGB color
+  fill ('lavender');//Shape with RGB color
   strokeWeight (1);//assigns stroke weight
 var num = 6;
 var sideLen = windowWidth/num;
