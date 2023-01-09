@@ -1,18 +1,19 @@
 function setup() {//runs once
-createCanvas (720, 720);//creates a canvas 720 by 720 pixels
-background (255, 255, 0);
+createCanvas (windowWidth, windowWidth);//creates a canvas 720 by 720 pixels
+
 }
 
 function draw() {//runs in a loop
   fill (255, 0, 0);//Shape with RGB color
-  strokeWeight (5);//assigns stroke weight
-  translate (60, 60);//creates a new origen point at 60, 60
-for (var y = 0; y < 600; y = y + 300)
-for (var x = 0; x < 600; x = x + 300) {
+  strokeWeight (1);//assigns stroke weight
+var num = 6;
+var sideLen = windowWidth/nun;
+for (var y = 0; y < windowWidth; y = y + sideLen)
+for (var x = 0; x < windowWidth; x = x + sideLen) {
 quad (x,y,
-      x + 300, y,
-      x + 300,y + 300,
-      x,y + 300);
+      x + sideLen, y,
+      x + sideLen,y + sideLen,
+      x,y + sideLen);
 
 }
 
