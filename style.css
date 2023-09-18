@@ -66,3 +66,8 @@ td {
   top: 0px;
   z-index: 1;
 }
+
+mark { 
+  background-color: pink;
+  color: black;
+}
